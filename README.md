@@ -36,3 +36,21 @@ Avant de commencer, assure-toi d'avoir installé :
    ```bash
    git clone https://github.com/chamarb/PFE_SmolVLM_and_Gaussian_Splatting_Mobile_2D_to_3D_Image_Transformation.git
    cd PFE_SmolVLM_and_Gaussian_Splatting_Mobile_2D_to_3D_Image_Transformation
+
+# SmolVLM and Gaussian Splatting: 2D to 3D Image Transformation
+
+## Project Overview
+This project transforms 2D images into 3D reconstructions using Gaussian Splatting and provides a detailed description of the image using SmolVLM.
+
+## Steps to Run the Project
+1. Clone the repository.
+2. Set up the backend (Python server).
+3. Set up the Flutter app on your mobile device.
+4. Test the image upload and description feature.
+
+## Backend
+- The backend is implemented in Python and handles the communication with the SmolVLM API.
+
+## Frontend
+- The mobile frontend is developed in Flutter and handles image selection, communication with the SmolVLM API, and displaying results.
+
